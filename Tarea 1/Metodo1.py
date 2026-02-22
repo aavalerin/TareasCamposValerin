@@ -1,5 +1,5 @@
-#Microcontroladores y Microprocesadores
-#Sebastián Campos y Aarón Valerín
+# Microcontroladores y Microprocesadores Tarea 1
+# Sebastián Campos y Aarón Valerín
 
 
 def filtrar_vocales(cadena, bandera):
