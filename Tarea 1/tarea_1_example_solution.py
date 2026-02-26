@@ -63,7 +63,7 @@ def encontrar_extremos(lista_numeros):
     """
 
     # a. Verificar que sea lista
-    if not isinstance(lista_numeros, list):.
+    if not isinstance(lista_numeros, list):
         return -600, None, None
 
     # b. Verificar que no esté vacía
@@ -76,8 +76,10 @@ def encontrar_extremos(lista_numeros):
 
     # d. Verificar que todos sean números (int o float)
     for elemento in lista_numeros:
-        if (not isinstance(elemento, (int, float))
-            or isinstance(elemento, bool)):
+        if (
+            not isinstance(elemento, (int, float))
+            or isinstance(elemento, bool)
+        ):
             return -700, None, None
 
     # e. Encontrar mínimo y máximo
